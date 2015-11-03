@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		01F12F4CFEC8CE2211DB9C8B = {
+			buildStyles = (
+				0A27EDBAFFEFEB1911CA20C7,
+				0A27EDBBFFEFEB1911CA20C7,
+			);
+			isa = PBXProject;
+			mainGroup = 01F12F4DFEC8CE2211DB9C8B;
+			productRefGroup = 01F12F4FFEC8CEF111DB9C8B;
+			projectDirPath = "";
+			targets = (
+				1601BCDBFEEE210811DB9C8B,
+			);
+		};
+		01F12F4DFEC8CE2211DB9C8B = {
+			children = (
+				10F9BF63FEEDA25E11DB9C8B,
+				F5718AA201124D6F01CA20C6,
+				F511CBF7012F0841010FDA3C,
+				01F12F4FFEC8CEF111DB9C8B,
+				0A28489CFFEFEB5A11CA20C7,
+			);
+			isa = PBXGroup;
+			refType = 4;
+		};
+		01F12F4FFEC8CEF111DB9C8B = {
+			children = (
+				06D05853FF24F2DB11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//010
+//011
+//012
+//013
+//014
+//060
+//061
+//062
+//063
+//064
+		06D05853FF24F2DB11DB9C8B = {
+			isa = PBXApplicationReference;
+			path = OutputTester.app;
+			refType = 3;
+		};
+//060
+//061
+//062
+//063
+//064
+//0A0
+//0A1
+//0A2
+//0A3
+//0A4
+		0A27EDBAFFEFEB1911CA20C7 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0A27EDBBFFEFEB1911CA20C7 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		0A28489CFFEFEB5A11CA20C7 = {
+			children = (
+				F5EB129101137152010FDA3C,
+				F7FFAD3101112FD401000001,
+				F7FFAD390111325301000001,
+				F5718AA001124D4901CA20C6,
+				F7FFAD370111310901000001,
+			);
+			isa = PBXGroup;
+			path = src;
+			refType = 4;
+		};
+//0A0
+//0A1
+//0A2
+//0A3
+//0A4
+//100
+//101
+//102
+//103
+//104
+		10F9BF63FEEDA25E11DB9C8B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MRJApp.properties;
+			refType = 4;
+		};
+//100
+//101
+//102
+//103
+//104
+//160
+//161
+//162
+//163
+//164
+		1601BCDBFEEE210811DB9C8B = {
+			buildPhases = (
+				1601BCDCFEEE210811DB9C8B,
+				1601BCDEFEEE210811DB9C8B,
+				1601BCDFFEEE210811DB9C8B,
+				1601BCE2FEEE210811DB9C8B,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OutputTester;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = OutputTester;
+			productName = HalTester;
+			productReference = 06D05853FF24F2DB11DB9C8B;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>OutputTester</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>OutputTester.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSJavaNeeded</key>
+	<string>YES</string>
+	<key>NSJavaPath</key>
+	<array>
+		<string>OutputTester.jar</string>
+	</array>
+	<key>NSJavaRoot</key>
+	<string>Contents/Resources/Java</string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 0;
+		};
+		1601BCDCFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				F7FFAD3201112FD401000001,
+				F7FFAD380111310901000001,
+				F7FFAD3A0111325301000001,
+				F5718AA101124D4901CA20C6,
+				F5EB129201137152010FDA3C,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDEFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				F5718AA301124D6F01CA20C6,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDFFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				1601BCE1FEEE210811DB9C8B,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCE1FEEE210811DB9C8B = {
+			fileRef = 10F9BF63FEEDA25E11DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1601BCE2FEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				F511CBF8012F0841010FDA3C,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//160
+//161
+//162
+//163
+//164
+//F50
+//F51
+//F52
+//F53
+//F54
+		F511CBF7012F0841010FDA3C = {
+			isa = PBXFileReference;
+			name = QTJava.zip;
+			path = /System/Library/Java/Extensions/QTJava.zip;
+			refType = 0;
+		};
+		F511CBF8012F0841010FDA3C = {
+			fileRef = F511CBF7012F0841010FDA3C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5718AA001124D4901CA20C6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = OutputTester.java;
+			refType = 4;
+		};
+		F5718AA101124D4901CA20C6 = {
+			fileRef = F5718AA001124D4901CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5718AA201124D6F01CA20C6 = {
+			isa = PBXFileReference;
+			path = OutputTester.icns;
+			refType = 4;
+		};
+		F5718AA301124D6F01CA20C6 = {
+			fileRef = F5718AA201124D6F01CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = "";
+			};
+		};
+		F5EB129101137152010FDA3C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = AudioProvider.java;
+			refType = 4;
+		};
+		F5EB129201137152010FDA3C = {
+			fileRef = F5EB129101137152010FDA3C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//F50
+//F51
+//F52
+//F53
+//F54
+//F70
+//F71
+//F72
+//F73
+//F74
+		F7FFAD3101112FD401000001 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = HALTester.java;
+			refType = 4;
+		};
+		F7FFAD3201112FD401000001 = {
+			fileRef = F7FFAD3101112FD401000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F7FFAD370111310901000001 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = OutputUnitTester.java;
+			refType = 4;
+		};
+		F7FFAD380111310901000001 = {
+			fileRef = F7FFAD370111310901000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F7FFAD390111325301000001 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = IOControlInterface.java;
+			refType = 4;
+		};
+		F7FFAD3A0111325301000001 = {
+			fileRef = F7FFAD390111325301000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 01F12F4CFEC8CE2211DB9C8B;
+}

@@ -1,0 +1,1 @@
+javah -classpath /System/Library/Java/Extensions/CoreAudio.jar -d CAJavaBundle/CAGenJNI com.apple.audio.units.AUComponent com.apple.audio.units.AudioUnit com.apple.audio.units.MusicDevice com.apple.audio.units.OutputAudioUnit

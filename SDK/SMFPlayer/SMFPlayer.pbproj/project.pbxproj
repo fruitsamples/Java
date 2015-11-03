@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		01F12F4CFEC8CE2211DB9C8B = {
+			buildStyles = (
+				0B90A032FFEFEF4611CA20C7,
+				0B90A033FFEFEF4611CA20C7,
+			);
+			isa = PBXProject;
+			mainGroup = 01F12F4DFEC8CE2211DB9C8B;
+			productRefGroup = 01F12F4FFEC8CEF111DB9C8B;
+			projectDirPath = "";
+			targets = (
+				1601BCDBFEEE210811DB9C8B,
+			);
+		};
+		01F12F4DFEC8CE2211DB9C8B = {
+			children = (
+				10F9BF62FEEDA25E11DB9C8B,
+				10F9BF63FEEDA25E11DB9C8B,
+				01F12F4FFEC8CEF111DB9C8B,
+				0B91637EFFEFEF8311CA20C7,
+			);
+			isa = PBXGroup;
+			refType = 4;
+		};
+		01F12F4FFEC8CEF111DB9C8B = {
+			children = (
+				06D05853FF24F2DB11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//010
+//011
+//012
+//013
+//014
+//060
+//061
+//062
+//063
+//064
+		06D05853FF24F2DB11DB9C8B = {
+			isa = PBXApplicationReference;
+			path = SMFPlayer.app;
+			refType = 3;
+		};
+//060
+//061
+//062
+//063
+//064
+//0B0
+//0B1
+//0B2
+//0B3
+//0B4
+		0B90A032FFEFEF4611CA20C7 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0B90A033FFEFEF4611CA20C7 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		0B91637EFFEFEF8311CA20C7 = {
+			children = (
+				0B91637FFFEFEF8311CA20C7,
+				F6E95C310100F6AA01000001,
+				F706452C010FF23301000001,
+			);
+			isa = PBXGroup;
+			path = src;
+			refType = 4;
+		};
+		0B91637FFFEFEF8311CA20C7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SMFPlayer.java;
+			refType = 4;
+		};
+		0B916380FFEFEF8311CA20C7 = {
+			fileRef = 0B91637FFFEFEF8311CA20C7;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+//0B0
+//0B1
+//0B2
+//0B3
+//0B4
+//100
+//101
+//102
+//103
+//104
+		10F9BF62FEEDA25E11DB9C8B = {
+			isa = PBXFileReference;
+			path = SMFPlayer.icns;
+			refType = 4;
+		};
+		10F9BF63FEEDA25E11DB9C8B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MRJApp.properties;
+			refType = 4;
+		};
+//100
+//101
+//102
+//103
+//104
+//160
+//161
+//162
+//163
+//164
+		1601BCDBFEEE210811DB9C8B = {
+			buildPhases = (
+				1601BCDCFEEE210811DB9C8B,
+				1601BCDEFEEE210811DB9C8B,
+				1601BCDFFEEE210811DB9C8B,
+				1601BCE2FEEE210811DB9C8B,
+			);
+			buildSettings = {
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = SMFPlayer;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = SMFPlayer;
+			productName = SMFPlayer;
+			productReference = 06D05853FF24F2DB11DB9C8B;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SMFPlayer</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>SMFPlayer.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSJavaNeeded</key>
+	<string>YES</string>
+	<key>NSJavaPath</key>
+	<array>
+		<string>SMFPlayer.jar</string>
+	</array>
+	<key>NSJavaRoot</key>
+	<string>Contents/Resources/Java</string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 0;
+		};
+		1601BCDCFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				0B916380FFEFEF8311CA20C7,
+				F6E95C320100F6AA01000001,
+				F706452D010FF23301000001,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDEFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDFFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				1601BCE0FEEE210811DB9C8B,
+				1601BCE1FEEE210811DB9C8B,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCE0FEEE210811DB9C8B = {
+			fileRef = 10F9BF62FEEDA25E11DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1601BCE1FEEE210811DB9C8B = {
+			fileRef = 10F9BF63FEEDA25E11DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1601BCE2FEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//160
+//161
+//162
+//163
+//164
+//F60
+//F61
+//F62
+//F63
+//F64
+		F6E95C310100F6AA01000001 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = UIWindow.java;
+			refType = 4;
+		};
+		F6E95C320100F6AA01000001 = {
+			fileRef = F6E95C310100F6AA01000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//F60
+//F61
+//F62
+//F63
+//F64
+//F70
+//F71
+//F72
+//F73
+//F74
+		F706452C010FF23301000001 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = AUGraphCPUMonitor.java;
+			path = ../SharedSrc/AUGraphCPUMonitor.java;
+			refType = 2;
+		};
+		F706452D010FF23301000001 = {
+			fileRef = F706452C010FF23301000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 01F12F4CFEC8CE2211DB9C8B;
+}

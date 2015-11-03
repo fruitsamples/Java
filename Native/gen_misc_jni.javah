@@ -1,0 +1,1 @@
+javah -classpath /System/Library/Java/Extensions/CoreAudio.jar -d CAJavaBundle/CAGenJNI com.apple.audio.CAObjectManagement com.apple.audio.util.HostTime

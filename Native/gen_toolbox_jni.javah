@@ -1,0 +1,1 @@
+javah -classpath /System/Library/Java/Extensions/CoreAudio.jar -d CAJavaBundle/CAGenJNI com.apple.audio.toolbox.AudioConverter com.apple.audio.toolbox.AUGraph com.apple.audio.toolbox.MusicEventIterator com.apple.audio.toolbox.MusicPlayer com.apple.audio.toolbox.MusicSequence com.apple.audio.toolbox.MusicTrack

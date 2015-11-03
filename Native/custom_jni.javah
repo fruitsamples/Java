@@ -1,0 +1,1 @@
+javah -classpath /System/Library/Java/Extensions/CoreAudio.jar -d CustomJNI com.apple.component.CompInfoSupport com.apple.component.Component com.apple.component.ComponentDescription com.apple.audio.util.CAMemoryObject com.apple.audio.util.CAFData com.apple.audio.util.CAFString

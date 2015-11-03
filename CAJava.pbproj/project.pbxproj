@@ -1,0 +1,2411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		00E6828EFEC88D1A11DB9C8B = {
+			buildStyles = (
+				130F8B95001BDF0A11CA292A,
+				130F8B96001BDF0A11CA292A,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				EC170F0901E3EB400DCA2268,
+				130F8B90001BDF0A11CA292A,
+				EC170F0C01E4C7BE0DCA2268,
+			);
+		};
+		00E6828FFEC88D1A11DB9C8B = {
+			children = (
+				EC51277F01E4D47B0DCA2268,
+				059BB56200CF5CDD7F000001,
+				EC170F8701E4CAAA0DCA2268,
+				0120612AFEC8923411DB9C8B,
+			);
+			isa = PBXGroup;
+			refType = 4;
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		0120612AFEC8923411DB9C8B = {
+			children = (
+				EC170F0B01E4C7BE0DCA2268,
+				F033AB3C0253ACA203CA2314,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//010
+//011
+//012
+//013
+//014
+//050
+//051
+//052
+//053
+//054
+		059BB56200CF5CDD7F000001 = {
+			children = (
+				059BB56300CF5CDD7F000001,
+			);
+			isa = PBXGroup;
+			path = src;
+			refType = 2;
+		};
+		059BB56300CF5CDD7F000001 = {
+			children = (
+				059BB56400CF5CDD7F000001,
+			);
+			isa = PBXGroup;
+			name = com;
+			path = src/com;
+			refType = 2;
+		};
+		059BB56400CF5CDD7F000001 = {
+			children = (
+				059BB56500CF5CDD7F000001,
+				059BB5C400CF5CDD7F000001,
+			);
+			isa = PBXGroup;
+			name = apple;
+			path = src/com/apple;
+			refType = 2;
+		};
+		059BB56500CF5CDD7F000001 = {
+			children = (
+				059BB56600CF5CDD7F000001,
+				059BB56700CF5CDD7F000001,
+				059BB56800CF5CDD7F000001,
+				059BB56900CF5CDD7F000001,
+				059BB56A00CF5CDD7F000001,
+				059BB56B00CF5CDD7F000001,
+				059BB56C00CF5CDD7F000001,
+				059BB57B00CF5CDD7F000001,
+				059BB58300CF5CDD7F000001,
+				059BB59700CF5CDD7F000001,
+				059BB5A500CF5CDD7F000001,
+				059BB5B300CF5CDD7F000001,
+			);
+			isa = PBXGroup;
+			name = audio;
+			path = src/com/apple/audio;
+			refType = 2;
+		};
+		059BB56600CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAErrors.java;
+			refType = 4;
+		};
+		059BB56700CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAException.java;
+			refType = 4;
+		};
+		059BB56800CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CANullPointerException.java;
+			refType = 4;
+		};
+		059BB56900CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAObject.java;
+			refType = 4;
+		};
+		059BB56A00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAObjectManagement.java;
+			refType = 4;
+		};
+		059BB56B00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CASession.java;
+			refType = 4;
+		};
+		059BB56C00CF5CDD7F000001 = {
+			children = (
+				059BB56D00CF5CDD7F000001,
+				059BB56E00CF5CDD7F000001,
+				059BB56F00CF5CDD7F000001,
+				059BB57000CF5CDD7F000001,
+				059BB57100CF5CDD7F000001,
+				059BB57200CF5CDD7F000001,
+				059BB57300CF5CDD7F000001,
+				059BB57400CF5CDD7F000001,
+				059BB57500CF5CDD7F000001,
+				059BB57600CF5CDD7F000001,
+				059BB57800CF5CDD7F000001,
+				059BB57900CF5CDD7F000001,
+				059BB57A00CF5CDD7F000001,
+			);
+			isa = PBXGroup;
+			path = hardware;
+			refType = 4;
+		};
+		059BB56D00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ADevicePropertyListener.java;
+			refType = 4;
+		};
+		059BB56E00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AHardwarePropertyListener.java;
+			refType = 4;
+		};
+		059BB56F00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AHConstants.java;
+			refType = 4;
+		};
+		059BB57000CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AStreamPropertyListener.java;
+			refType = 4;
+		};
+		059BB57100CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioDevice.java;
+			refType = 4;
+		};
+		059BB57200CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioDeviceIOProc.java;
+			refType = 4;
+		};
+		059BB57300CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioHardware.java;
+			refType = 4;
+		};
+		059BB57400CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioStream.java;
+			refType = 4;
+		};
+		059BB57500CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = DeviceProcTable.java;
+			refType = 4;
+		};
+		059BB57600CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = HardwareDispatcher.java;
+			refType = 4;
+		};
+		059BB57800CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = JNIHardware.java;
+			refType = 4;
+		};
+		059BB57900CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = PropListNode.java;
+			refType = 4;
+		};
+		059BB57A00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = StreamProcTable.java;
+			refType = 4;
+		};
+		059BB57B00CF5CDD7F000001 = {
+			children = (
+				88C6FD3104ABC3C700EBA797,
+				88C6FD3304ABC44700EBA797,
+				F55C4AC10140918C010FDA3C,
+			);
+			isa = PBXGroup;
+			path = jdirect;
+			refType = 4;
+		};
+		059BB58300CF5CDD7F000001 = {
+			children = (
+				059BB58400CF5CDD7F000001,
+				059BB58500CF5CDD7F000001,
+				059BB58600CF5CDD7F000001,
+				059BB58700CF5CDD7F000001,
+				059BB58800CF5CDD7F000001,
+				059BB58900CF5CDD7F000001,
+				059BB58A00CF5CDD7F000001,
+				059BB58B00CF5CDD7F000001,
+				059BB58C00CF5CDD7F000001,
+				059BB58D00CF5CDD7F000001,
+				059BB58E00CF5CDD7F000001,
+				059BB58F00CF5CDD7F000001,
+				059BB59000CF5CDD7F000001,
+				059BB59100CF5CDD7F000001,
+				059BB59200CF5CDD7F000001,
+				059BB59300CF5CDD7F000001,
+				059BB59400CF5CDD7F000001,
+				059BB59500CF5CDD7F000001,
+				059BB59600CF5CDD7F000001,
+			);
+			isa = PBXGroup;
+			path = midi;
+			refType = 4;
+		};
+		059BB58400CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = JNIMidi.java;
+			refType = 4;
+		};
+		059BB58500CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIClient.java;
+			refType = 4;
+		};
+		059BB58600CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDICompletionProc.java;
+			refType = 4;
+		};
+		059BB58700CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIConstants.java;
+			refType = 4;
+		};
+		059BB58800CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIDevice.java;
+			refType = 4;
+		};
+		059BB58900CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIDispatcher.java;
+			refType = 4;
+		};
+		059BB58A00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIEndpoint.java;
+			refType = 4;
+		};
+		059BB58B00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIEntity.java;
+			refType = 4;
+		};
+		059BB58C00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIInputPort.java;
+			refType = 4;
+		};
+		059BB58D00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDINotification.java;
+			refType = 4;
+		};
+		059BB58E00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDINotifyProc.java;
+			refType = 4;
+		};
+		059BB58F00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIObject.java;
+			refType = 4;
+		};
+		059BB59000CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIOutputPort.java;
+			refType = 4;
+		};
+		059BB59100CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIPacket.java;
+			refType = 4;
+		};
+		059BB59200CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIPacketList.java;
+			refType = 4;
+		};
+		059BB59300CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIPort.java;
+			refType = 4;
+		};
+		059BB59400CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIReadProc.java;
+			refType = 4;
+		};
+		059BB59500CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDISetup.java;
+			refType = 4;
+		};
+		059BB59600CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDISysexSendRequest.java;
+			refType = 4;
+		};
+		059BB59700CF5CDD7F000001 = {
+			children = (
+				059BB59800CF5CDD7F000001,
+				059BB59900CF5CDD7F000001,
+				F701420F010E8C40010FDA3C,
+				F73A67E80111503C01000001,
+				F7014211010EA547010FDA3C,
+				F541419F017BBC6901D1217E,
+				059BB59A00CF5CDD7F000001,
+				059BB59B00CF5CDD7F000001,
+				F528733102408D6101000102,
+				059BB59C00CF5CDD7F000001,
+				059BB59D00CF5CDD7F000001,
+				059BB59E00CF5CDD7F000001,
+				059BB59F00CF5CDD7F000001,
+				059BB5A000CF5CDD7F000001,
+				059BB5A100CF5CDD7F000001,
+				059BB5A200CF5CDD7F000001,
+				059BB5A300CF5CDD7F000001,
+				059BB5A400CF5CDD7F000001,
+				F571F7F6023F26E301CA20C6,
+				F571F7F7023F26E301CA20C6,
+				F571F7FB023F2EE501CA20C6,
+			);
+			isa = PBXGroup;
+			path = toolbox;
+			refType = 4;
+		};
+		059BB59800CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ATConstants.java;
+			refType = 4;
+		};
+		059BB59900CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ATDispatcher.java;
+			refType = 4;
+		};
+		059BB59A00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUGraph.java;
+			refType = 4;
+		};
+		059BB59B00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUGraphRenderNotification.java;
+			refType = 4;
+		};
+		059BB59C00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUNode.java;
+			refType = 4;
+		};
+		059BB59D00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ExtendedControlEvent.java;
+			refType = 4;
+		};
+		059BB59E00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ExtendedNoteOnEvent.java;
+			refType = 4;
+		};
+		059BB59F00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ExtendedTempoEvent.java;
+			refType = 4;
+		};
+		059BB5A000CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = JNIToolbox.java;
+			refType = 4;
+		};
+		059BB5A100CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MusicEventIterator.java;
+			refType = 4;
+		};
+		059BB5A200CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MusicPlayer.java;
+			refType = 4;
+		};
+		059BB5A300CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MusicSequence.java;
+			refType = 4;
+		};
+		059BB5A400CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MusicTrack.java;
+			refType = 4;
+		};
+		059BB5A500CF5CDD7F000001 = {
+			children = (
+				059BB5A600CF5CDD7F000001,
+				059BB5A700CF5CDD7F000001,
+				059BB5A800CF5CDD7F000001,
+				059BB5A900CF5CDD7F000001,
+				059BB5AA00CF5CDD7F000001,
+				059BB5AB00CF5CDD7F000001,
+				059BB5AC00CF5CDD7F000001,
+				059BB5AD00CF5CDD7F000001,
+				059BB5AE00CF5CDD7F000001,
+				059BB5AF00CF5CDD7F000001,
+				059BB5B000CF5CDD7F000001,
+				059BB5B100CF5CDD7F000001,
+				059BB5B200CF5CDD7F000001,
+			);
+			isa = PBXGroup;
+			path = units;
+			refType = 4;
+		};
+		059BB5A600CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUComponent.java;
+			refType = 4;
+		};
+		059BB5A700CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUConstants.java;
+			refType = 4;
+		};
+		059BB5A800CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioDeviceOutputUnit.java;
+			refType = 4;
+		};
+		059BB5A900CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioUnit.java;
+			refType = 4;
+		};
+		059BB5AA00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioUnitConnection.java;
+			refType = 4;
+		};
+		059BB5AB00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUDispatcher.java;
+			refType = 4;
+		};
+		059BB5AC00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUParameterInfo.java;
+			refType = 4;
+		};
+		059BB5AD00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUProperties.java;
+			refType = 4;
+		};
+		059BB5AE00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AUPropertyListener.java;
+			refType = 4;
+		};
+		059BB5AF00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AURenderCallback.java;
+			refType = 4;
+		};
+		059BB5B000CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = JNIUnits.java;
+			refType = 4;
+		};
+		059BB5B100CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MusicDevice.java;
+			refType = 4;
+		};
+		059BB5B200CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = OutputAudioUnit.java;
+			refType = 4;
+		};
+		059BB5B300CF5CDD7F000001 = {
+			children = (
+				059BB5B400CF5CDD7F000001,
+				059BB5B500CF5CDD7F000001,
+				059BB5B600CF5CDD7F000001,
+				059BB5B700CF5CDD7F000001,
+				059BB5B800CF5CDD7F000001,
+				059BB5B900CF5CDD7F000001,
+				059BB5BA00CF5CDD7F000001,
+				059BB5BB00CF5CDD7F000001,
+				059BB5BC00CF5CDD7F000001,
+				059BB5BD00CF5CDD7F000001,
+				059BB5BE00CF5CDD7F000001,
+				059BB5BF00CF5CDD7F000001,
+				059BB5C000CF5CDD7F000001,
+				059BB5C100CF5CDD7F000001,
+				059BB5C200CF5CDD7F000001,
+				F5EB38C9023AEAAA01CA20C6,
+				059BB5C300CF5CDD7F000001,
+				F5EB38CB023AEE0201CA20C6,
+			);
+			isa = PBXGroup;
+			path = util;
+			refType = 4;
+		};
+		059BB5B400CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioBuffer.java;
+			refType = 4;
+		};
+		059BB5B500CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioBufferList.java;
+			refType = 4;
+		};
+		059BB5B600CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioStreamDescription.java;
+			refType = 4;
+		};
+		059BB5B700CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioTimeStamp.java;
+			refType = 4;
+		};
+		059BB5B800CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioValueRange.java;
+			refType = 4;
+		};
+		059BB5B900CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = AudioValueTranslation.java;
+			refType = 4;
+		};
+		059BB5BA00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAFData.java;
+			refType = 4;
+		};
+		059BB5BB00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAFString.java;
+			refType = 4;
+		};
+		059BB5BC00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAMemoryObject.java;
+			refType = 4;
+		};
+		059BB5BD00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAOutOfBoundsException.java;
+			refType = 4;
+		};
+		059BB5BE00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAUtilConstants.java;
+			refType = 4;
+		};
+		059BB5BF00CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CAUtils.java;
+			refType = 4;
+		};
+		059BB5C000CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ExtendedNoteParams.java;
+			refType = 4;
+		};
+		059BB5C100CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = HostTime.java;
+			refType = 4;
+		};
+		059BB5C200CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = MIDIData.java;
+			refType = 4;
+		};
+		059BB5C300CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = SMPTETime.java;
+			refType = 4;
+		};
+		059BB5C400CF5CDD7F000001 = {
+			children = (
+				059BB5C500CF5CDD7F000001,
+				059BB5C600CF5CDD7F000001,
+				059BB5C700CF5CDD7F000001,
+				059BB5C800CF5CDD7F000001,
+			);
+			isa = PBXGroup;
+			name = component;
+			path = src/com/apple/component;
+			refType = 2;
+		};
+		059BB5C500CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = CompInfoSupport.java;
+			refType = 4;
+		};
+		059BB5C600CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = Component.java;
+			refType = 4;
+		};
+		059BB5C700CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ComponentDescription.java;
+			refType = 4;
+		};
+		059BB5C800CF5CDD7F000001 = {
+			isa = PBXFileReference;
+			path = ComponentInstance.java;
+			refType = 4;
+		};
+		059BB5CA00CF5CDD7F000001 = {
+			fileRef = 059BB56700CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5CB00CF5CDD7F000001 = {
+			fileRef = 059BB56800CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5CC00CF5CDD7F000001 = {
+			fileRef = 059BB56900CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5CD00CF5CDD7F000001 = {
+			fileRef = 059BB56A00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5CE00CF5CDD7F000001 = {
+			fileRef = 059BB56B00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5CF00CF5CDD7F000001 = {
+			fileRef = 059BB56D00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D000CF5CDD7F000001 = {
+			fileRef = 059BB56E00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D100CF5CDD7F000001 = {
+			fileRef = 059BB56F00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D200CF5CDD7F000001 = {
+			fileRef = 059BB57000CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D300CF5CDD7F000001 = {
+			fileRef = 059BB57100CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D400CF5CDD7F000001 = {
+			fileRef = 059BB57200CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D500CF5CDD7F000001 = {
+			fileRef = 059BB57300CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D600CF5CDD7F000001 = {
+			fileRef = 059BB57400CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D700CF5CDD7F000001 = {
+			fileRef = 059BB57500CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5D800CF5CDD7F000001 = {
+			fileRef = 059BB57600CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5DA00CF5CDD7F000001 = {
+			fileRef = 059BB57800CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5DB00CF5CDD7F000001 = {
+			fileRef = 059BB57900CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5DC00CF5CDD7F000001 = {
+			fileRef = 059BB57A00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5E400CF5CDD7F000001 = {
+			fileRef = 059BB58400CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5E500CF5CDD7F000001 = {
+			fileRef = 059BB58500CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5E600CF5CDD7F000001 = {
+			fileRef = 059BB58600CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5E800CF5CDD7F000001 = {
+			fileRef = 059BB58800CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5E900CF5CDD7F000001 = {
+			fileRef = 059BB58900CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5EA00CF5CDD7F000001 = {
+			fileRef = 059BB58A00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5EB00CF5CDD7F000001 = {
+			fileRef = 059BB58B00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5EC00CF5CDD7F000001 = {
+			fileRef = 059BB58C00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5ED00CF5CDD7F000001 = {
+			fileRef = 059BB58D00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5EE00CF5CDD7F000001 = {
+			fileRef = 059BB58E00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5EF00CF5CDD7F000001 = {
+			fileRef = 059BB58F00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F000CF5CDD7F000001 = {
+			fileRef = 059BB59000CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F100CF5CDD7F000001 = {
+			fileRef = 059BB59100CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F200CF5CDD7F000001 = {
+			fileRef = 059BB59200CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F300CF5CDD7F000001 = {
+			fileRef = 059BB59300CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F400CF5CDD7F000001 = {
+			fileRef = 059BB59400CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F500CF5CDD7F000001 = {
+			fileRef = 059BB59500CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F600CF5CDD7F000001 = {
+			fileRef = 059BB59600CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F700CF5CDD7F000001 = {
+			fileRef = 059BB59800CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F800CF5CDD7F000001 = {
+			fileRef = 059BB59900CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5F900CF5CDD7F000001 = {
+			fileRef = 059BB59A00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5FA00CF5CDD7F000001 = {
+			fileRef = 059BB59B00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5FB00CF5CDD7F000001 = {
+			fileRef = 059BB59C00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5FC00CF5CDD7F000001 = {
+			fileRef = 059BB59D00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5FD00CF5CDD7F000001 = {
+			fileRef = 059BB59E00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5FE00CF5CDD7F000001 = {
+			fileRef = 059BB59F00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB5FF00CF5CDD7F000001 = {
+			fileRef = 059BB5A000CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60000CF5CDD7F000001 = {
+			fileRef = 059BB5A100CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60100CF5CDD7F000001 = {
+			fileRef = 059BB5A200CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60200CF5CDD7F000001 = {
+			fileRef = 059BB5A300CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60300CF5CDD7F000001 = {
+			fileRef = 059BB5A400CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60400CF5CDD7F000001 = {
+			fileRef = 059BB5A600CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60500CF5CDD7F000001 = {
+			fileRef = 059BB5A700CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60600CF5CDD7F000001 = {
+			fileRef = 059BB5A800CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60700CF5CDD7F000001 = {
+			fileRef = 059BB5A900CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60800CF5CDD7F000001 = {
+			fileRef = 059BB5AA00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60900CF5CDD7F000001 = {
+			fileRef = 059BB5AB00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60A00CF5CDD7F000001 = {
+			fileRef = 059BB5AC00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60B00CF5CDD7F000001 = {
+			fileRef = 059BB5AD00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60C00CF5CDD7F000001 = {
+			fileRef = 059BB5AE00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60D00CF5CDD7F000001 = {
+			fileRef = 059BB5AF00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60E00CF5CDD7F000001 = {
+			fileRef = 059BB5B000CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB60F00CF5CDD7F000001 = {
+			fileRef = 059BB5B100CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61000CF5CDD7F000001 = {
+			fileRef = 059BB5B200CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61100CF5CDD7F000001 = {
+			fileRef = 059BB5B400CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61200CF5CDD7F000001 = {
+			fileRef = 059BB5B500CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61300CF5CDD7F000001 = {
+			fileRef = 059BB5B600CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61400CF5CDD7F000001 = {
+			fileRef = 059BB5B700CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61500CF5CDD7F000001 = {
+			fileRef = 059BB5B800CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61600CF5CDD7F000001 = {
+			fileRef = 059BB5B900CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61700CF5CDD7F000001 = {
+			fileRef = 059BB5BA00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61800CF5CDD7F000001 = {
+			fileRef = 059BB5BB00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61900CF5CDD7F000001 = {
+			fileRef = 059BB5BC00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61A00CF5CDD7F000001 = {
+			fileRef = 059BB5BD00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61B00CF5CDD7F000001 = {
+			fileRef = 059BB5BE00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61C00CF5CDD7F000001 = {
+			fileRef = 059BB5BF00CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61D00CF5CDD7F000001 = {
+			fileRef = 059BB5C000CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61E00CF5CDD7F000001 = {
+			fileRef = 059BB5C100CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB61F00CF5CDD7F000001 = {
+			fileRef = 059BB5C200CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB62000CF5CDD7F000001 = {
+			fileRef = 059BB5C300CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB62100CF5CDD7F000001 = {
+			fileRef = 059BB5C500CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB62200CF5CDD7F000001 = {
+			fileRef = 059BB5C600CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB62300CF5CDD7F000001 = {
+			fileRef = 059BB5C700CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		059BB62400CF5CDD7F000001 = {
+			fileRef = 059BB5C800CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//050
+//051
+//052
+//053
+//054
+//130
+//131
+//132
+//133
+//134
+		130F8B90001BDF0A11CA292A = {
+			buildPhases = (
+				130F8B91001BDF0A11CA292A,
+				130F8B93001BDF0A11CA292A,
+				130F8B94001BDF0A11CA292A,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = /System/Library/Java/Extensions;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = YES;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				JAVA_SOURCE_SUBDIR = .;
+				OPTIMIZATION_CFLAGS = "-O3";
+				PRODUCT_NAME = CoreAudio.jar;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = "CAJava Classes";
+			productInstallPath = /System/Library/Java/Extensions;
+			productName = CoreAudioJava;
+			productReference = F033AB3C0253ACA203CA2314;
+		};
+		130F8B91001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				059BB5CA00CF5CDD7F000001,
+				059BB5CB00CF5CDD7F000001,
+				059BB5CC00CF5CDD7F000001,
+				059BB5CD00CF5CDD7F000001,
+				059BB5CE00CF5CDD7F000001,
+				059BB5CF00CF5CDD7F000001,
+				059BB5D000CF5CDD7F000001,
+				059BB5D100CF5CDD7F000001,
+				059BB5D200CF5CDD7F000001,
+				059BB5D300CF5CDD7F000001,
+				059BB5D400CF5CDD7F000001,
+				059BB5D500CF5CDD7F000001,
+				059BB5D600CF5CDD7F000001,
+				059BB5D700CF5CDD7F000001,
+				059BB5D800CF5CDD7F000001,
+				059BB5DA00CF5CDD7F000001,
+				059BB5DB00CF5CDD7F000001,
+				059BB5DC00CF5CDD7F000001,
+				059BB5E400CF5CDD7F000001,
+				059BB5E500CF5CDD7F000001,
+				059BB5E600CF5CDD7F000001,
+				059BB5E800CF5CDD7F000001,
+				059BB5E900CF5CDD7F000001,
+				059BB5EA00CF5CDD7F000001,
+				059BB5EB00CF5CDD7F000001,
+				059BB5EC00CF5CDD7F000001,
+				059BB5ED00CF5CDD7F000001,
+				059BB5EE00CF5CDD7F000001,
+				059BB5EF00CF5CDD7F000001,
+				059BB5F000CF5CDD7F000001,
+				059BB5F100CF5CDD7F000001,
+				059BB5F200CF5CDD7F000001,
+				059BB5F300CF5CDD7F000001,
+				059BB5F400CF5CDD7F000001,
+				059BB5F500CF5CDD7F000001,
+				059BB5F600CF5CDD7F000001,
+				059BB5F700CF5CDD7F000001,
+				059BB5F800CF5CDD7F000001,
+				059BB5F900CF5CDD7F000001,
+				059BB5FA00CF5CDD7F000001,
+				059BB5FB00CF5CDD7F000001,
+				059BB5FC00CF5CDD7F000001,
+				059BB5FD00CF5CDD7F000001,
+				059BB5FE00CF5CDD7F000001,
+				059BB5FF00CF5CDD7F000001,
+				059BB60000CF5CDD7F000001,
+				059BB60100CF5CDD7F000001,
+				059BB60200CF5CDD7F000001,
+				059BB60300CF5CDD7F000001,
+				059BB60400CF5CDD7F000001,
+				059BB60500CF5CDD7F000001,
+				059BB60600CF5CDD7F000001,
+				059BB60700CF5CDD7F000001,
+				059BB60800CF5CDD7F000001,
+				059BB60900CF5CDD7F000001,
+				059BB60A00CF5CDD7F000001,
+				059BB60B00CF5CDD7F000001,
+				059BB60C00CF5CDD7F000001,
+				059BB60D00CF5CDD7F000001,
+				059BB60E00CF5CDD7F000001,
+				059BB60F00CF5CDD7F000001,
+				059BB61000CF5CDD7F000001,
+				059BB61100CF5CDD7F000001,
+				059BB61200CF5CDD7F000001,
+				059BB61300CF5CDD7F000001,
+				059BB61400CF5CDD7F000001,
+				059BB61500CF5CDD7F000001,
+				059BB61600CF5CDD7F000001,
+				059BB61700CF5CDD7F000001,
+				059BB61800CF5CDD7F000001,
+				059BB61900CF5CDD7F000001,
+				059BB61A00CF5CDD7F000001,
+				059BB61B00CF5CDD7F000001,
+				059BB61C00CF5CDD7F000001,
+				059BB61D00CF5CDD7F000001,
+				059BB61E00CF5CDD7F000001,
+				059BB61F00CF5CDD7F000001,
+				059BB62000CF5CDD7F000001,
+				059BB62100CF5CDD7F000001,
+				059BB62200CF5CDD7F000001,
+				059BB62300CF5CDD7F000001,
+				059BB62400CF5CDD7F000001,
+				F624AAE600D05B8E01CA20C6,
+				F624AAF500D0881001CA20C6,
+				F7014210010E8C40010FDA3C,
+				F7014212010EA547010FDA3C,
+				F73A67E90111503C01000001,
+				F55C4AC50141662A010FDA3C,
+				F54141A0017BBC6901D1217E,
+				F5EB38CA023AEAAA01CA20C6,
+				F5EB38CC023AEE0201CA20C6,
+				F571F7F9023F26E301CA20C6,
+				F571F7FA023F26E301CA20C6,
+				F571F7FC023F2EE501CA20C6,
+				F528733202408D6101000102,
+				88C6FD3204ABC3C700EBA797,
+				88C6FD3404ABC44700EBA797,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B93001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B94001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B95001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O3";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		130F8B96001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//130
+//131
+//132
+//133
+//134
+//880
+//881
+//882
+//883
+//884
+		88C6FD2E04ABC2BD00EBA797 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = JNI_NativeUtilities.cpp;
+			path = Native/JNI_NativeUtilities.cpp;
+			refType = 4;
+		};
+		88C6FD3004ABC2CC00EBA797 = {
+			fileRef = 88C6FD2E04ABC2BD00EBA797;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		88C6FD3104ABC3C700EBA797 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = Accessor.java;
+			path = src/com/apple/audio/jdirect/Accessor.java;
+			refType = 2;
+		};
+		88C6FD3204ABC3C700EBA797 = {
+			fileRef = 88C6FD3104ABC3C700EBA797;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		88C6FD3304ABC44700EBA797 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = ArrayCopy.java;
+			refType = 4;
+		};
+		88C6FD3404ABC44700EBA797 = {
+			fileRef = 88C6FD3304ABC44700EBA797;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		88C6FD3504ABC92F00EBA797 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = com_apple_audio_jdirect_Accessor.h;
+			path = Native/com_apple_audio_jdirect_Accessor.h;
+			refType = 2;
+		};
+		88C6FD3604ABC92F00EBA797 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = com_apple_audio_jdirect_ArrayCopy.h;
+			path = Native/com_apple_audio_jdirect_ArrayCopy.h;
+			refType = 2;
+		};
+		88C6FD3704ABC92F00EBA797 = {
+			fileRef = 88C6FD3504ABC92F00EBA797;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		88C6FD3804ABC92F00EBA797 = {
+			fileRef = 88C6FD3604ABC92F00EBA797;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//880
+//881
+//882
+//883
+//884
+//EC0
+//EC1
+//EC2
+//EC3
+//EC4
+		EC170F0901E3EB400DCA2268 = {
+			buildPhases = (
+			);
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "CA Java Aggregate";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				EC170F0A01E3EB400DCA2268,
+				EC170F1201E4C7BE0DCA2268,
+			);
+			isa = PBXAggregateTarget;
+			name = "CA Java Aggregate";
+			productName = "CA Java Aggregate";
+		};
+		EC170F0A01E3EB400DCA2268 = {
+			isa = PBXTargetDependency;
+			target = 130F8B90001BDF0A11CA292A;
+		};
+		EC170F0B01E4C7BE0DCA2268 = {
+			isa = PBXBundleReference;
+			path = CoreAudio.bundle;
+			refType = 3;
+		};
+		EC170F0C01E4C7BE0DCA2268 = {
+			buildPhases = (
+				EC170F0D01E4C7BE0DCA2268,
+				EC170F0E01E4C7BE0DCA2268,
+				EC170F0F01E4C7BE0DCA2268,
+				EC170F1001E4C7BE0DCA2268,
+				EC170F1101E4C7BE0DCA2268,
+			);
+			buildSettings = {
+				BUNDLE_STYLE = SHALLOW;
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Versions/A/Headers\"";
+				INSTALL_PATH = /System/Library/QuickTimeJava;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle -twolevel_namespace";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CoreAudio;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = bundle;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = CAJavaBundle;
+			productInstallPath = /System/Library/QuickTimeJava;
+			productName = CAJavaBundle;
+			productReference = EC170F0B01E4C7BE0DCA2268;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.coreaudio.java.CoreAudioBundle</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>CoreAudioBundle</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.0</string>
+</dict>
+</plist>
+";
+		};
+		EC170F0D01E4C7BE0DCA2268 = {
+			buildActionMask = 2147483647;
+			files = (
+				EC4598C2021C29AE0DCA2268,
+				F507FFC0023DD1AA01CA20C6,
+				F5F61BE702BF194201000102,
+				88C6FD3704ABC92F00EBA797,
+				88C6FD3804ABC92F00EBA797,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC170F0E01E4C7BE0DCA2268 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC170F0F01E4C7BE0DCA2268 = {
+			buildActionMask = 2147483647;
+			files = (
+				EC170F6201E4C8E40DCA2268,
+				EC170F6301E4C8E40DCA2268,
+				EC170F6401E4C8E40DCA2268,
+				F507FF92023C9B9501CA20C6,
+				F507FFBC023DC3BC01CA20C6,
+				F507FFBE023DD12801CA20C6,
+				88C6FD3004ABC2CC00EBA797,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC170F1001E4C7BE0DCA2268 = {
+			buildActionMask = 2147483647;
+			files = (
+				EC170F8F01E4CAF20DCA2268,
+				EC170F9001E4CAF20DCA2268,
+				EC170F9101E4CAF20DCA2268,
+				EC170F9201E4CAF20DCA2268,
+				EC170F9301E4CAF20DCA2268,
+				EC170F9401E4CAF20DCA2268,
+				EC170F9501E4CAF20DCA2268,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC170F1101E4C7BE0DCA2268 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC170F1201E4C7BE0DCA2268 = {
+			isa = PBXTargetDependency;
+			target = EC170F0C01E4C7BE0DCA2268;
+		};
+		EC170F1301E4C84B0DCA2268 = {
+			children = (
+				EC170F1401E4C84B0DCA2268,
+				EC170F1701E4C8E30DCA2268,
+				F507FFBB023DC3BC01CA20C6,
+				F507FFBF023DD1AA01CA20C6,
+				F507FFBD023DD12801CA20C6,
+				88C6FD2E04ABC2BD00EBA797,
+				88C6FD3504ABC92F00EBA797,
+				88C6FD3604ABC92F00EBA797,
+				EC170F1901E4C8E30DCA2268,
+			);
+			isa = PBXGroup;
+			name = Source;
+			path = "";
+			refType = 4;
+		};
+		EC170F1401E4C84B0DCA2268 = {
+			children = (
+				EC170F1501E4C8E30DCA2268,
+				EC170F1601E4C8E30DCA2268,
+				EC4598C1021C29AE0DCA2268,
+			);
+			isa = PBXGroup;
+			name = Java_JNI;
+			refType = 4;
+		};
+		EC170F1501E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			name = JNI_Custom.cpp;
+			path = Native/CAJavaBundle/JNI_Custom.cpp;
+			refType = 4;
+		};
+		EC170F1601E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			name = JNI_Glue_Calls.cpp;
+			path = Native/CAJavaBundle/JNI_Glue_Calls.cpp;
+			refType = 4;
+		};
+		EC170F1701E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			name = MachOMethodClosure.cpp;
+			path = Native/CAJavaBundle/MachOMethodClosure.cpp;
+			refType = 4;
+		};
+		EC170F1901E4C8E30DCA2268 = {
+			children = (
+				F507FF91023C9B9501CA20C6,
+				F541A0C3023F41E001CA20C6,
+				F5287333024095A201000102,
+				EC170F1B01E4C8E30DCA2268,
+				EC170F1C01E4C8E30DCA2268,
+				EC170F1D01E4C8E30DCA2268,
+				EC170F1E01E4C8E30DCA2268,
+				EC170F1F01E4C8E30DCA2268,
+				EC170F2001E4C8E30DCA2268,
+				EC170F2101E4C8E30DCA2268,
+				EC170F2201E4C8E30DCA2268,
+				EC170F2301E4C8E30DCA2268,
+				EC170F2401E4C8E30DCA2268,
+				EC170F2501E4C8E30DCA2268,
+				EC170F2601E4C8E30DCA2268,
+				EC170F2701E4C8E30DCA2268,
+				EC170F2801E4C8E30DCA2268,
+				EC170F2901E4C8E30DCA2268,
+				EC170F2A01E4C8E30DCA2268,
+				EC170F2B01E4C8E30DCA2268,
+				EC170F2C01E4C8E30DCA2268,
+				EC170F2D01E4C8E30DCA2268,
+				EC170F2E01E4C8E30DCA2268,
+				EC170F2F01E4C8E30DCA2268,
+				EC170F3001E4C8E30DCA2268,
+				EC170F3101E4C8E30DCA2268,
+				EC170F3201E4C8E30DCA2268,
+				EC170F3301E4C8E30DCA2268,
+				EC170F3401E4C8E30DCA2268,
+				EC170F3501E4C8E30DCA2268,
+				EC170F3601E4C8E30DCA2268,
+				EC170F3701E4C8E30DCA2268,
+				EC170F3801E4C8E30DCA2268,
+				EC170F3901E4C8E30DCA2268,
+				EC170F3A01E4C8E30DCA2268,
+				EC170F3B01E4C8E30DCA2268,
+				EC170F3C01E4C8E30DCA2268,
+				EC170F3D01E4C8E30DCA2268,
+				EC170F3E01E4C8E30DCA2268,
+				EC170F3F01E4C8E30DCA2268,
+				EC170F4001E4C8E30DCA2268,
+				EC170F4101E4C8E30DCA2268,
+				EC170F4201E4C8E30DCA2268,
+				EC170F4301E4C8E30DCA2268,
+				EC170F4401E4C8E30DCA2268,
+				EC170F4501E4C8E30DCA2268,
+				EC170F4601E4C8E30DCA2268,
+				EC170F4701E4C8E30DCA2268,
+				EC170F4801E4C8E30DCA2268,
+				EC170F4901E4C8E30DCA2268,
+				EC170F4A01E4C8E30DCA2268,
+				EC170F4B01E4C8E30DCA2268,
+				EC170F4C01E4C8E30DCA2268,
+			);
+			isa = PBXGroup;
+			name = CAGenJNI;
+			path = Native/CAJavaBundle/CAGenJNI;
+			refType = 4;
+		};
+		EC170F1B01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_CAObjectManagement.cpp;
+			refType = 4;
+		};
+		EC170F1C01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_CAObjectManagement.h;
+			refType = 4;
+		};
+		EC170F1D01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_hardware_AudioDevice.cpp;
+			refType = 4;
+		};
+		EC170F1E01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_hardware_AudioDevice.h;
+			refType = 4;
+		};
+		EC170F1F01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_hardware_AudioHardware.cpp;
+			refType = 4;
+		};
+		EC170F2001E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_hardware_AudioHardware.h;
+			refType = 4;
+		};
+		EC170F2101E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_hardware_AudioStream.cpp;
+			refType = 4;
+		};
+		EC170F2201E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_hardware_AudioStream.h;
+			refType = 4;
+		};
+		EC170F2301E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIClient.cpp;
+			refType = 4;
+		};
+		EC170F2401E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIClient.h;
+			refType = 4;
+		};
+		EC170F2501E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIDevice.cpp;
+			refType = 4;
+		};
+		EC170F2601E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIDevice.h;
+			refType = 4;
+		};
+		EC170F2701E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIEndpoint.cpp;
+			refType = 4;
+		};
+		EC170F2801E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIEndpoint.h;
+			refType = 4;
+		};
+		EC170F2901E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIEntity.cpp;
+			refType = 4;
+		};
+		EC170F2A01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIEntity.h;
+			refType = 4;
+		};
+		EC170F2B01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIInputPort.cpp;
+			refType = 4;
+		};
+		EC170F2C01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIInputPort.h;
+			refType = 4;
+		};
+		EC170F2D01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIObject.cpp;
+			refType = 4;
+		};
+		EC170F2E01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIObject.h;
+			refType = 4;
+		};
+		EC170F2F01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIOutputPort.cpp;
+			refType = 4;
+		};
+		EC170F3001E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIOutputPort.h;
+			refType = 4;
+		};
+		EC170F3101E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIPacketList.cpp;
+			refType = 4;
+		};
+		EC170F3201E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDIPacketList.h;
+			refType = 4;
+		};
+		EC170F3301E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDISetup.cpp;
+			refType = 4;
+		};
+		EC170F3401E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDISetup.h;
+			refType = 4;
+		};
+		EC170F3501E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDISysexSendRequest.cpp;
+			refType = 4;
+		};
+		EC170F3601E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_midi_MIDISysexSendRequest.h;
+			refType = 4;
+		};
+		EC170F3701E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_AudioConverter.cpp;
+			refType = 4;
+		};
+		EC170F3801E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_AudioConverter.h;
+			refType = 4;
+		};
+		EC170F3901E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_AUGraph.cpp;
+			refType = 4;
+		};
+		EC170F3A01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_AUGraph.h;
+			refType = 4;
+		};
+		EC170F3B01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_MusicEventIterator.cpp;
+			refType = 4;
+		};
+		EC170F3C01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_MusicEventIterator.h;
+			refType = 4;
+		};
+		EC170F3D01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_MusicPlayer.cpp;
+			refType = 4;
+		};
+		EC170F3E01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_MusicPlayer.h;
+			refType = 4;
+		};
+		EC170F3F01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_MusicSequence.cpp;
+			refType = 4;
+		};
+		EC170F4001E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_MusicSequence.h;
+			refType = 4;
+		};
+		EC170F4101E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_MusicTrack.cpp;
+			refType = 4;
+		};
+		EC170F4201E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_MusicTrack.h;
+			refType = 4;
+		};
+		EC170F4301E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_units_AUComponent.cpp;
+			refType = 4;
+		};
+		EC170F4401E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_units_AUComponent.h;
+			refType = 4;
+		};
+		EC170F4501E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_units_AudioUnit.cpp;
+			refType = 4;
+		};
+		EC170F4601E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_units_AudioUnit.h;
+			refType = 4;
+		};
+		EC170F4701E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_units_MusicDevice.cpp;
+			refType = 4;
+		};
+		EC170F4801E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_units_MusicDevice.h;
+			refType = 4;
+		};
+		EC170F4901E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_units_OutputAudioUnit.cpp;
+			refType = 4;
+		};
+		EC170F4A01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_units_OutputAudioUnit.h;
+			refType = 4;
+		};
+		EC170F4B01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_util_HostTime.cpp;
+			refType = 4;
+		};
+		EC170F4C01E4C8E30DCA2268 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_util_HostTime.h;
+			refType = 4;
+		};
+		EC170F6201E4C8E40DCA2268 = {
+			fileRef = EC170F1501E4C8E30DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F6301E4C8E40DCA2268 = {
+			fileRef = EC170F1601E4C8E30DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F6401E4C8E40DCA2268 = {
+			fileRef = EC170F1701E4C8E30DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F7901E4CA030DCA2268 = {
+			children = (
+				EC170F7A01E4CAAA0DCA2268,
+				EC170F8101E4CAAA0DCA2268,
+				EC170F8201E4CAAA0DCA2268,
+				EC170F8301E4CAAA0DCA2268,
+				EC170F8401E4CAAA0DCA2268,
+				EC170F8501E4CAAA0DCA2268,
+				EC170F8601E4CAAA0DCA2268,
+			);
+			isa = PBXGroup;
+			name = Headers;
+			path = "";
+			refType = 4;
+		};
+		EC170F7A01E4CAAA0DCA2268 = {
+			children = (
+				EC170F7B01E4CAAA0DCA2268,
+				EC170F7C01E4CAAA0DCA2268,
+				EC170F7D01E4CAAA0DCA2268,
+				EC170F7E01E4CAAA0DCA2268,
+				EC170F7F01E4CAAA0DCA2268,
+				EC170F8001E4CAAA0DCA2268,
+				F5F61BE502BF194201000102,
+			);
+			isa = PBXGroup;
+			name = Java_JNI;
+			refType = 4;
+		};
+		EC170F7B01E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = com_apple_component_ComponentDescription.h;
+			path = Native/CAJavaBundle/com_apple_component_ComponentDescription.h;
+			refType = 4;
+		};
+		EC170F7C01E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = com_apple_component_CompInfoSupport.h;
+			path = Native/CAJavaBundle/com_apple_component_CompInfoSupport.h;
+			refType = 4;
+		};
+		EC170F7D01E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = com_apple_component_Component.h;
+			path = Native/CAJavaBundle/com_apple_component_Component.h;
+			refType = 4;
+		};
+		EC170F7E01E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = com_apple_audio_util_CAMemoryObject.h;
+			path = Native/CAJavaBundle/com_apple_audio_util_CAMemoryObject.h;
+			refType = 4;
+		};
+		EC170F7F01E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = com_apple_audio_util_CAFString.h;
+			path = Native/CAJavaBundle/com_apple_audio_util_CAFString.h;
+			refType = 4;
+		};
+		EC170F8001E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = com_apple_audio_util_CAFData.h;
+			path = Native/CAJavaBundle/com_apple_audio_util_CAFData.h;
+			refType = 4;
+		};
+		EC170F8101E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = CA_Exception.h;
+			path = Native/CAJavaBundle/CA_Exception.h;
+			refType = 4;
+		};
+		EC170F8201E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = JNIHardware.h;
+			path = Native/CAJavaBundle/JNIHardware.h;
+			refType = 4;
+		};
+		EC170F8301E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = JNIMidi.h;
+			path = Native/CAJavaBundle/JNIMidi.h;
+			refType = 4;
+		};
+		EC170F8401E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = JNIToolbox.h;
+			path = Native/CAJavaBundle/JNIToolbox.h;
+			refType = 4;
+		};
+		EC170F8501E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = JNIUnits.h;
+			path = Native/CAJavaBundle/JNIUnits.h;
+			refType = 4;
+		};
+		EC170F8601E4CAAA0DCA2268 = {
+			isa = PBXFileReference;
+			name = MethodClosure.h;
+			path = Native/CAJavaBundle/MethodClosure.h;
+			refType = 4;
+		};
+		EC170F8701E4CAAA0DCA2268 = {
+			children = (
+				EC170F8801E4CAF20DCA2268,
+				EC170F8901E4CAF20DCA2268,
+				EC170F8A01E4CAF20DCA2268,
+				EC170F8B01E4CAF20DCA2268,
+				EC170F8C01E4CAF20DCA2268,
+				EC170F8D01E4CAF20DCA2268,
+				EC170F8E01E4CAF20DCA2268,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+		};
+		EC170F8801E4CAF20DCA2268 = {
+			isa = PBXFrameworkReference;
+			name = AudioToolbox.framework;
+			path = /System/Library/Frameworks/AudioToolbox.framework;
+			refType = 0;
+		};
+		EC170F8901E4CAF20DCA2268 = {
+			isa = PBXFrameworkReference;
+			name = AudioUnit.framework;
+			path = /System/Library/Frameworks/AudioUnit.framework;
+			refType = 0;
+		};
+		EC170F8A01E4CAF20DCA2268 = {
+			isa = PBXFrameworkReference;
+			name = CoreAudio.framework;
+			path = /System/Library/Frameworks/CoreAudio.framework;
+			refType = 0;
+		};
+		EC170F8B01E4CAF20DCA2268 = {
+			isa = PBXFrameworkReference;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+		};
+		EC170F8C01E4CAF20DCA2268 = {
+			isa = PBXFrameworkReference;
+			name = CoreMIDI.framework;
+			path = /System/Library/Frameworks/CoreMIDI.framework;
+			refType = 0;
+		};
+		EC170F8D01E4CAF20DCA2268 = {
+			isa = PBXFrameworkReference;
+			name = CoreServices.framework;
+			path = /System/Library/Frameworks/CoreServices.framework;
+			refType = 0;
+		};
+		EC170F8E01E4CAF20DCA2268 = {
+			isa = PBXFrameworkReference;
+			name = JavaVM.framework;
+			path = /System/Library/Frameworks/JavaVM.framework;
+			refType = 0;
+		};
+		EC170F8F01E4CAF20DCA2268 = {
+			fileRef = EC170F8801E4CAF20DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F9001E4CAF20DCA2268 = {
+			fileRef = EC170F8901E4CAF20DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F9101E4CAF20DCA2268 = {
+			fileRef = EC170F8A01E4CAF20DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F9201E4CAF20DCA2268 = {
+			fileRef = EC170F8B01E4CAF20DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F9301E4CAF20DCA2268 = {
+			fileRef = EC170F8C01E4CAF20DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F9401E4CAF20DCA2268 = {
+			fileRef = EC170F8D01E4CAF20DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC170F9501E4CAF20DCA2268 = {
+			fileRef = EC170F8E01E4CAF20DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC4598C1021C29AE0DCA2268 = {
+			isa = PBXFileReference;
+			name = Tink.h;
+			path = Native/CAJavaBundle/Tink.h;
+			refType = 4;
+		};
+		EC4598C2021C29AE0DCA2268 = {
+			fileRef = EC4598C1021C29AE0DCA2268;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC51277F01E4D47B0DCA2268 = {
+			children = (
+				EC170F1301E4C84B0DCA2268,
+				EC170F7901E4CA030DCA2268,
+			);
+			isa = PBXGroup;
+			name = Bundle;
+			refType = 4;
+		};
+//EC0
+//EC1
+//EC2
+//EC3
+//EC4
+//F00
+//F01
+//F02
+//F03
+//F04
+		F033AB3C0253ACA203CA2314 = {
+			includeInIndex = 0;
+			isa = PBXZipArchiveReference;
+			path = CoreAudio.jar.jar;
+			refType = 3;
+		};
+//F00
+//F01
+//F02
+//F03
+//F04
+//F50
+//F51
+//F52
+//F53
+//F54
+		F507FF91023C9B9501CA20C6 = {
+			isa = PBXFileReference;
+			path = javacglue_master.cpp;
+			refType = 4;
+		};
+		F507FF92023C9B9501CA20C6 = {
+			fileRef = F507FF91023C9B9501CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F507FFBB023DC3BC01CA20C6 = {
+			isa = PBXFileReference;
+			name = JNICallbackBase.cpp;
+			path = Native/CAJavaBundle/JNICallbackBase.cpp;
+			refType = 2;
+		};
+		F507FFBC023DC3BC01CA20C6 = {
+			fileRef = F507FFBB023DC3BC01CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F507FFBD023DD12801CA20C6 = {
+			isa = PBXFileReference;
+			name = JNICallbacks.cpp;
+			path = Native/CAJavaBundle/JNICallbacks.cpp;
+			refType = 4;
+		};
+		F507FFBE023DD12801CA20C6 = {
+			fileRef = F507FFBD023DD12801CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F507FFBF023DD1AA01CA20C6 = {
+			isa = PBXFileReference;
+			name = JNICallbackBase.h;
+			path = Native/CAJavaBundle/JNICallbackBase.h;
+			refType = 4;
+		};
+		F507FFC0023DD1AA01CA20C6 = {
+			fileRef = F507FFBF023DD1AA01CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F528733102408D6101000102 = {
+			isa = PBXFileReference;
+			path = AUMIDIController.java;
+			refType = 4;
+		};
+		F528733202408D6101000102 = {
+			fileRef = F528733102408D6101000102;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5287333024095A201000102 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_AUMIDIController.cpp;
+			refType = 4;
+		};
+		F541419F017BBC6901D1217E = {
+			isa = PBXFileReference;
+			name = AUConnectionInfo.java;
+			path = src/com/apple/audio/toolbox/AUConnectionInfo.java;
+			refType = 2;
+		};
+		F54141A0017BBC6901D1217E = {
+			fileRef = F541419F017BBC6901D1217E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F541A0C3023F41E001CA20C6 = {
+			isa = PBXFileReference;
+			path = com_apple_audio_toolbox_AUListener.cpp;
+			refType = 4;
+		};
+		F55C4AC10140918C010FDA3C = {
+			isa = PBXFileReference;
+			path = MethodClosure.java;
+			refType = 4;
+		};
+		F55C4AC50141662A010FDA3C = {
+			fileRef = F55C4AC10140918C010FDA3C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F571F7F6023F26E301CA20C6 = {
+			isa = PBXFileReference;
+			path = AUParameter.java;
+			refType = 4;
+		};
+		F571F7F7023F26E301CA20C6 = {
+			isa = PBXFileReference;
+			path = AUListener.java;
+			refType = 4;
+		};
+		F571F7F9023F26E301CA20C6 = {
+			fileRef = F571F7F6023F26E301CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F571F7FA023F26E301CA20C6 = {
+			fileRef = F571F7F7023F26E301CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F571F7FB023F2EE501CA20C6 = {
+			isa = PBXFileReference;
+			path = AUParameterListener.java;
+			refType = 4;
+		};
+		F571F7FC023F2EE501CA20C6 = {
+			fileRef = F571F7FB023F2EE501CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5EB38C9023AEAAA01CA20C6 = {
+			isa = PBXFileReference;
+			name = MusicUserEvent.java;
+			path = src/com/apple/audio/util/MusicUserEvent.java;
+			refType = 2;
+		};
+		F5EB38CA023AEAAA01CA20C6 = {
+			fileRef = F5EB38C9023AEAAA01CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5EB38CB023AEE0201CA20C6 = {
+			isa = PBXFileReference;
+			path = ParameterEvent.java;
+			refType = 4;
+		};
+		F5EB38CC023AEE0201CA20C6 = {
+			fileRef = F5EB38CB023AEE0201CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F61BE502BF194201000102 = {
+			isa = PBXFileReference;
+			name = com_apple_audio_jdirect_JDirectNative.h;
+			path = Native/CAJavaBundle/com_apple_audio_jdirect_JDirectNative.h;
+			refType = 2;
+		};
+		F5F61BE702BF194201000102 = {
+			fileRef = F5F61BE502BF194201000102;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//F50
+//F51
+//F52
+//F53
+//F54
+//F60
+//F61
+//F62
+//F63
+//F64
+		F624AAE600D05B8E01CA20C6 = {
+			fileRef = 059BB56600CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F624AAF500D0881001CA20C6 = {
+			fileRef = 059BB58700CF5CDD7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//F60
+//F61
+//F62
+//F63
+//F64
+//F70
+//F71
+//F72
+//F73
+//F74
+		F701420F010E8C40010FDA3C = {
+			isa = PBXFileReference;
+			path = AudioConverter.java;
+			refType = 4;
+		};
+		F7014210010E8C40010FDA3C = {
+			fileRef = F701420F010E8C40010FDA3C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F7014211010EA547010FDA3C = {
+			isa = PBXFileReference;
+			path = AudioConverterInputData.java;
+			refType = 4;
+		};
+		F7014212010EA547010FDA3C = {
+			fileRef = F7014211010EA547010FDA3C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F73A67E80111503C01000001 = {
+			isa = PBXFileReference;
+			path = AudioConverterDataSupplier.java;
+			refType = 4;
+		};
+		F73A67E90111503C01000001 = {
+			fileRef = F73A67E80111503C01000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B;
+}

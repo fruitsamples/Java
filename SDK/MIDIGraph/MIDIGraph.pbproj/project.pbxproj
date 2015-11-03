@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		01F12F4CFEC8CE2211DB9C8B = {
+			buildStyles = (
+				0E20B662001FAFA711DB9C8B,
+				0E20B663001FAFA711DB9C8B,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 01F12F4DFEC8CE2211DB9C8B;
+			productRefGroup = 01F12F4FFEC8CEF111DB9C8B;
+			projectDirPath = "";
+			targets = (
+				1601BCDBFEEE210811DB9C8B,
+			);
+		};
+		01F12F4DFEC8CE2211DB9C8B = {
+			children = (
+				A9A730DB04E30ACB00CA20C6,
+				A9A730DC04E30ACB00CA20C6,
+				A9A730DD04E30ACB00CA20C6,
+				A9A730DE04E30ACB00CA20C6,
+				A9A730E704E3104E00CA20C6,
+				A9A730E304E30BF400CA20C6,
+				6A9C778D023ECD530CC91562,
+				01F12F4FFEC8CEF111DB9C8B,
+			);
+			isa = PBXGroup;
+			refType = 4;
+		};
+		01F12F4FFEC8CEF111DB9C8B = {
+			children = (
+				06D05853FF24F2DB11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//010
+//011
+//012
+//013
+//014
+//060
+//061
+//062
+//063
+//064
+		06D05853FF24F2DB11DB9C8B = {
+			isa = PBXApplicationReference;
+			path = MIDIGraph.app;
+			refType = 3;
+		};
+//060
+//061
+//062
+//063
+//064
+//0E0
+//0E1
+//0E2
+//0E3
+//0E4
+		0E20B662001FAFA711DB9C8B = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0E20B663001FAFA711DB9C8B = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//0E0
+//0E1
+//0E2
+//0E3
+//0E4
+//100
+//101
+//102
+//103
+//104
+		10F9BF62FEEDA25E11DB9C8B = {
+			isa = PBXFileReference;
+			path = MIDIGraph.icns;
+			refType = 4;
+		};
+//100
+//101
+//102
+//103
+//104
+//160
+//161
+//162
+//163
+//164
+		1601BCDBFEEE210811DB9C8B = {
+			buildPhases = (
+				1601BCDCFEEE210811DB9C8B,
+				1601BCDEFEEE210811DB9C8B,
+				1601BCDFFEEE210811DB9C8B,
+				1601BCE2FEEE210811DB9C8B,
+				6A88643101E695080CC91562,
+			);
+			buildSettings = {
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = MIDIGraph;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = MIDIGraph;
+			productName = MIDIGraph;
+			productReference = 06D05853FF24F2DB11DB9C8B;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MIDIGraph</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>MIDIGraph.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MIDIGraph</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>Java</key>
+	<dict>
+		<key>ClassPath</key>
+		<string>$JAVAROOT/MIDIGraph.jar</string>
+		<key>JVMVersion</key>
+		<string>1.4+</string>
+		<key>MainClass</key>
+		<string>MIDIGraph</string>
+		<key>Properties</key>
+		<dict>
+			<key>com.apple.macos.useScreenMenuBar</key>
+			<string>true</string>
+			<key>com.apple.mrj.application.apple.menu.about.name</key>
+			<string>MIDIGraph</string>
+		</dict>
+		<key>WorkingDirectory</key>
+		<string>$APP_PACKAGE/Contents/Resources/Java</string>
+	</dict>
+	<key>NSJavaNeeded</key>
+	<string>YES</string>
+	<key>NSJavaPath</key>
+	<array>
+		<string>MIDIGraph.jar</string>
+	</array>
+	<key>NSJavaRoot</key>
+	<string>Contents/Resources/Java</string>
+</dict>
+</plist>
+";
+		};
+		1601BCDCFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				A9A730DF04E30ACB00CA20C6,
+				A9A730E004E30ACB00CA20C6,
+				A9A730E104E30ACB00CA20C6,
+				A9A730E204E30ACB00CA20C6,
+				A9A730E404E30BF400CA20C6,
+				A9A730E804E3104E00CA20C6,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDEFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDFFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				1601BCE0FEEE210811DB9C8B,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCE0FEEE210811DB9C8B = {
+			fileRef = 10F9BF62FEEDA25E11DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1601BCE2FEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//160
+//161
+//162
+//163
+//164
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+		6A88643101E695080CC91562 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${TARGET_BUILD_DIR}\" = \"\" ]; \nthen\n    TARGET_BUILD_DIR=${BUILD_DIR}\nfi\n\nALERTSTRINGS=\"OldJavaAlert.strings\"\nAPPLAUNCHRESDIR=\"/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources\";\nLSH=`/bin/ls $APPLAUNCHRESDIR | /usr/bin/grep lproj`;\nRESOURCEDIR=\"${TARGET_BUILD_DIR}/$TARGET_NAME.app/Contents/Resources\"\n\nfor COPYDIR in $LSH\ndo\n        /bin/mkdir -p $RESOURCEDIR/$COPYDIR\n        /bin/cp \"$APPLAUNCHRESDIR/$COPYDIR/$ALERTSTRINGS\" \"$RESOURCEDIR/$COPYDIR\"\ndone";
+		};
+		6A9C778D023ECD530CC91562 = {
+			children = (
+				10F9BF62FEEDA25E11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+//A90
+//A91
+//A92
+//A93
+//A94
+		A9A730DB04E30ACB00CA20C6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = DLSGraph.java;
+			path = src/DLSGraph.java;
+			refType = 2;
+		};
+		A9A730DC04E30ACB00CA20C6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = MainGraph.java;
+			path = src/MainGraph.java;
+			refType = 2;
+		};
+		A9A730DD04E30ACB00CA20C6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = MIDIGraph.java;
+			path = src/MIDIGraph.java;
+			refType = 2;
+		};
+		A9A730DE04E30ACB00CA20C6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = UIWindow.java;
+			path = src/UIWindow.java;
+			refType = 2;
+		};
+		A9A730DF04E30ACB00CA20C6 = {
+			fileRef = A9A730DB04E30ACB00CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A9A730E004E30ACB00CA20C6 = {
+			fileRef = A9A730DC04E30ACB00CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A9A730E104E30ACB00CA20C6 = {
+			fileRef = A9A730DD04E30ACB00CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A9A730E204E30ACB00CA20C6 = {
+			fileRef = A9A730DE04E30ACB00CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A9A730E304E30BF400CA20C6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = AUGraphCPUMonitor.java;
+			path = ../SharedSrc/AUGraphCPUMonitor.java;
+			refType = 2;
+		};
+		A9A730E404E30BF400CA20C6 = {
+			fileRef = A9A730E304E30BF400CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A9A730E704E3104E00CA20C6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = MIDIProcessor.java;
+			path = src/MIDIProcessor.java;
+			refType = 2;
+		};
+		A9A730E804E3104E00CA20C6 = {
+			fileRef = A9A730E704E3104E00CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 01F12F4CFEC8CE2211DB9C8B;
+}

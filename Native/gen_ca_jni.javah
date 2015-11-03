@@ -1,0 +1,5 @@
+./gen_hardware_jni.javah
+./gen_midi_jni.javah
+./gen_misc_jni.javah
+./gen_toolbox_jni.javah
+./gen_units_jni.javah

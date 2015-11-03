@@ -1,0 +1,1 @@
+javah -classpath /System/Library/Java/Extensions/CoreAudio.jar -d CAJavaBundle/CAGenJNI com.apple.audio.hardware.AudioDevice com.apple.audio.hardware.AudioHardware com.apple.audio.hardware.AudioStream
